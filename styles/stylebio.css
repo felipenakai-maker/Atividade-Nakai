@@ -1,0 +1,31 @@
+@import url(style.css);
+
+
+.lindona{
+    width: 200px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.biogra{
+    padding: 10px;
+}
+
+.biogra-bloco{
+    background-color: #000125;
+    border-radius: 10px;
+} 
+
+.subtitulos{
+    padding: 10px;
+}
+.titulos{
+    padding: 10px;
+}
