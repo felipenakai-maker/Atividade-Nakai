@@ -43,3 +43,18 @@ button:hover{
 .p{
     font-family: "Quick sand", sans-serif;
 }
+
+main{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+input[type="text"], input[type="email"]{
+    width: 97%;
+    padding: 7px;
+    border: solid 2px #ffffff;
+    border-radius: 5px;
+    outline: none;
+
+}
