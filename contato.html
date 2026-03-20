@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./styles/stylecontato.css">
+</head>
+<body>
+      <header class="cabecalho">
+        
+        <div class="menu">
+            <a href="./index.html"><img src="./img/ana linda no carro.jpeg" alt="Foto mais linda dela" class="lindadaminhavida"></a>
+            <nav class="butao">
+                <a href="./fotos.html">Fotos</a>
+                <a href="./redessociais.html"> Instagram </a>
+                <a href="./biografia.html"> Biografia </a>
+                <a href="./contato.html">Contato</a>
+            </nav>
+        </div>
+        <h1 class="titulos">Página dedicatória para Ana Livia Camilo Gamonar.</h1>
+        <p> Descubra um pouco mais sobre a mulher que eu amo!</p>
+        
+
+    </header>
+    <main class="tudao">
+        <h2 class="subtitulos">Nos dê seu feedback!</h2>
+        <form>
+            <fieldset>
+                <legend>Informações de contato</legend>
+                <label for="nome" class="p">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Informe seu nome...">
+
+                <label for="email" class="p">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="Digite seu email..."><br>
+
+                <label for="comentario" class="p">Comentário:</label><br>
+                <textarea name="comentario" id="comentario" placeholder="Digite o seu Comentário aqui..." cols="50" rows="10"></textarea><br>
+
+                <button type="submit" class="p">Concluido</button>
+            </fieldset>
+            <button onclick="alert(`Feedback enviado!`)" class="buto">Enviar quiz</button>
+        </form>
+    </main>
+    <footer class="rodape">
+        <p>&copy; Quiz de programação. Todos os direitos reservados.</p>
+        <p>Para conhecer mais sobre mim <a href="https://felipenakai-maker.github.io/aula7/" class="port" target="_blank">clique aqui.</a></p>
+    </footer>
+</body>
+</html>
