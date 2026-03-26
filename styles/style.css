@@ -68,8 +68,19 @@ p{
     text-align: center;
 }
 
-main{
-    margin-bottom: 388px;
+.linhadotempo{
+    width: 100%;
+
+}
+.linhatempo{
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+video{
+    width: 30%;
+    margin-top: 20px;
 }
 
 .rodape{

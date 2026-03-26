@@ -1,2 +1,35 @@
 @import url(style.css);
 
+.redesociais{
+    text-align: center;
+    margin: 100px;
+
+}
+.redesociais a{
+    text-decoration: none;
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+
+}
+
+.redesociais a:hover{
+    background-color: #00000064;
+    color: #0006ac;
+    border-radius: 20px;
+    transition: 360ms ease;
+}
+
+.bloco-botao{
+    padding: 10px;
+    height: 300px;
+    background-image: url("./img/Anadevestido2.jpeg");
+    background-size: cover;
+    background-position: center top;
+    margin: 20px;
+    border-radius: 10px;
+}
